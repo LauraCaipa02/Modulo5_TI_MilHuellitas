@@ -7,7 +7,7 @@ import { faCheck, faExclamation} from '@fortawesome/free-solid-svg-icons';
 
 const Form = () => {
     return ( 
-        <main>
+        <main className="mainform">
             <Formulario>
                 <div>
                 <Label htmlFor="nombre">Nombre</Label>
