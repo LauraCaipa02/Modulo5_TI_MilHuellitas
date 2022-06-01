@@ -1,15 +1,15 @@
 import Header from "./../../components/header/Header";
 import Footer from "./../../components/footer/Footer";
-import Info from "./../../components/donacion/Donacion_info";
+import Form from "./../../components/donacion/Form_pago";
 
-function Donacion(){
+function Pago(){
     return(
         <section className="donacion">
             <Header/>
-            <Info/>
+            <Form/>
             <Footer/>
         </section>
     )
 }
 
-export default Donacion;
+export default Pago;

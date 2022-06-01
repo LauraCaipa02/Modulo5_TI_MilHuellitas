@@ -1,0 +1,24 @@
+main{
+    max-width:90%;
+    margin: 100px auto 0;
+    padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        max-width:80%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        max-width:70%;
+    }
+}
