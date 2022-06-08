@@ -3,7 +3,9 @@ import Footer from "./../../components/footer/Footer";
 import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_6doblehuella.jpg";
-import '../../components/donacion/Plan.css'
+import '../../components/donacion/Plan.css';
+import Huella from '../../assets/img/donacion/Union.png';
+
 
 function  DobleHuella() {
     return (  
@@ -18,6 +20,7 @@ function  DobleHuella() {
                 valor={"Aporte: $500.000"}
                 descripcion={"Tu aporte permite cubrir la estadía de los peludos dentro de la fundación, incluye alimentación, control veterinario con examenes, baños, tambien contribuye con el mantenimiento de las instalaciones."}
             />
+            <img src={Huella} alt=''className="Huella"/>
             </div>
             <Footer/>
         </section>

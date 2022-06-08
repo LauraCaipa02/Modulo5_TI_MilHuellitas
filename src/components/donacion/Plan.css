@@ -1,3 +1,15 @@
+.container__page{
+    position: relative;
+}
+
+.Huella{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
 .bodyplan{
     margin-top: 100px;
 }
@@ -121,6 +133,10 @@ margin: 5px auto;
     margin: 5px 0 10px;
     }
 
+    .Huella{
+        width: 40%;
+        bottom: 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -179,5 +195,10 @@ margin: 5px auto;
 
     .plan__container{
         margin: 50px auto;
+    }
+
+    .Huella{
+        width: 35%;
+        bottom: 99px;
     }
 }

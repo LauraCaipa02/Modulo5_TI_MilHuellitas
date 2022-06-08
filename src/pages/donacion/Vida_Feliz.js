@@ -3,7 +3,9 @@ import Footer from "./../../components/footer/Footer";
 import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_3vidafeliz.jpg";
-import '../../components/donacion/Plan.css'
+import '../../components/donacion/Plan.css';
+import Huella from '../../assets/img/donacion/Union.png';
+
 
 function  VidaFeliz() {
     return (  
@@ -18,6 +20,7 @@ function  VidaFeliz() {
                 valor={"Aporte: $150.000"}
                 descripcion={"Tu aporte contribuye con los gastos que conlleva un nuevo rescate, entre ellos el traslado, la estadía y chequeo médico del peludo con su respectivo  tratamiento. "}
             />
+            <img src={Huella} alt=''className="Huella"/>
             </div>
             <Footer/>
         </section>

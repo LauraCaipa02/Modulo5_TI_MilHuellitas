@@ -4,6 +4,7 @@ import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_2abuelito.jpg";
 import '../../components/donacion/Plan.css'
+import Huella from '../../assets/img/donacion/Union.png';
 
 function  Abuelo() {
     return (  
@@ -18,6 +19,7 @@ function  Abuelo() {
                 valor={"Aporte: $120.000"}
                 descripcion={"Tu aporte contribuye a cubrir los cuidados especiales de los abuelitos que tenemos en la fundación, tales como refuerzo de vacunas, alimento especifico para su edad y exámenes de control."}
             />
+            <img src={Huella} alt=''className="Huella"/>
             </div>
             <Footer/>
         </section>

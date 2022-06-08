@@ -3,7 +3,9 @@ import Footer from "./../../components/footer/Footer";
 import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_5nuevahuella.jpg";
-import '../../components/donacion/Plan.css'
+import '../../components/donacion/Plan.css';
+import Huella from '../../assets/img/donacion/Union.png';
+
 
 function  NuevaHuella() {
     return (  
@@ -18,6 +20,7 @@ function  NuevaHuella() {
                 valor={"Aporte: $300.000"}
                 descripcion={"Tu aporte permite cubrir los gastos veterinarios que se generan dentro de la fundación. Estos gastos abarcan cirugías, exámenes, vacunas y medicamentos necesarios para garantizar la buena salud de nuestros peludos."}
             />
+            <img src={Huella} alt=''className="Huella"/>
             </div>
             <Footer/>
         </section>
