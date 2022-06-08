@@ -1,103 +1,15 @@
 import React from "react";
 import './Form_pago.css';
-import {
-	Formulario,	Label,	GrupoInput,	Input,Leyenda,IconoValidacion,ContenedorTerminos,	ContenedorBotonCentrado,	Boton,	MensajeExito,	MensajeError} from "../../elements/donacion/Formulariopago";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheck, faExclamation} from '@fortawesome/free-solid-svg-icons';
+import {Formulario,	Label,	GrupoInput,Leyenda,IconoValidacion,ContenedorTerminos,	ContenedorBotonCentrado,	Boton,	MensajeExito,	MensajeError} from "../../elements/donacion/Formulariopago";
+import {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamation} from '@fortawesome/free-solid-svg-icons';
+import ComponenteInput from "./Input";
 
 const Form = () => {
     return ( 
         <main className="mainform">
             <Formulario>
-                <div>
-                <Label htmlFor="nombre">Nombre</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su nombre" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Apellidos</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese sus Apellidos" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Ciudad</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su ciudad" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Municipio</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su municipio" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Dirección</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su dirección" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">.</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Apartamento,bloque, etc." id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Teléfono</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su número de teléfono" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Correo Electrónico</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su correo electrónico" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-
-                <div>
-                <Label htmlFor="nombre">Tipo de Documento</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Seleccione el tipo de documento" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
-                
-                <div>
-                <Label htmlFor="nombre">Documento de Identidad</Label>
-                <GrupoInput>
-                <Input type="text" placeholder="Ingrese su número de documento" id="nombre"/>
-                <IconoValidacion icon={faCheck} />
-                </GrupoInput>
-                <Leyenda>Lorem ipsum dolor sit amet.</Leyenda>
-                </div>
+                <ComponenteInput/>
 
                 <ContenedorTerminos>
                     <Label htmlFor="terminos">
@@ -107,7 +19,7 @@ const Form = () => {
                 {false && <MensajeError>
                     <p>
                     <FontAwesomeIcon icon={faExclamation}/>
-                    <b>Error:</b>Por favor diligenciar el formulario correctamente
+                    <b>Error: </b>Por favor diligenciar el formulario correctamente
                     </p>
                 </MensajeError>}
                 <ContenedorBotonCentrado>

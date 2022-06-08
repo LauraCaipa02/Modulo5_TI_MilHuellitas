@@ -58,6 +58,7 @@ const Leyenda=styled.p`
 font-size:12px;
 margin-bottom:0;
 color:${colores.error};
+display:none
 `
 const IconoValidacion=styled(FontAwesomeIcon)`
 position: absolute;
@@ -65,7 +66,8 @@ right: 10px;
 bottom: 14px;
 z-index: 100;
 font-size:16px;
-
+color: var(--green-light-color );
+opacity:0;
 `;
 
 const ContenedorTerminos=styled.div`
@@ -103,12 +105,13 @@ const Boton = styled.button`
 const MensajeExito = styled.p`
 	font-size: 14px;
 	color:#8df162;
+    display:none;
 `;
 
 const MensajeError = styled.div`
 	height: 45px;
 	line-height: 45px;
-	background: #F66060;
+	background: var(--coral-color);
 	padding: 0px 15px;
 	border-radius: 3px;
 	grid-column: span 2;
