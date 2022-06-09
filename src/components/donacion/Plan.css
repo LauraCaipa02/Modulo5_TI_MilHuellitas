@@ -100,6 +100,88 @@ color: #000000;
 margin: 5px auto;
 }
 
+.btn__pago{
+    width: 45%;
+    height: 80%;
+    margin: 30px auto;
+    display: flex;
+    position: relative;
+}
+
+.btn__pago button{
+    width: 90%;
+    background-color: var(--blue-dark-color);
+    border: 5px solid var(--blue-light);
+    cursor: pointer;
+    border-radius:10px;
+    position: absolute;
+    right: 0%;
+    z-index: 0;
+    font-family: var(--aleo-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: var(--white-color);
+    text-align:center;
+    padding-left: 30px;
+}
+
+.huella-btn {
+    background-color: var(--blue-dark-color);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--blue-light);
+    padding:2.5px;
+    padding-left: 4px;
+    border-radius:50%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.huella-btn img{
+    width: 80%;
+}
+
+.btn__pago:hover button, .btn__pago:hover .huella-btn{
+    background-color: var(--blue-medium-color);
+}
+
+.planes{
+    color: var(--blue-dark-color);
+    text-decoration: none;
+    font-family:'Open Sans';
+    position: absolute;
+}
+.link__cachorro{
+    left:36%;
+    top:71%;
+}
+.link__abuelito{
+    top:82.5% ;
+    left:36%;
+}
+.link__vidafeliz{
+    top:80% ;
+    left:36%;
+}
+
+.link__rehabilitacion{
+    top:88% ;
+    left:36%;
+}
+
+.link__nuevahuella{
+    top:79% ;
+    left:36%;
+}
+.link__doble_huella{
+    top:82%;
+    left:37%;
+}
+
 @media screen and (min-width: 768px) {
     .bodyplan{
         margin-top: 100px;
@@ -138,6 +220,40 @@ margin: 5px auto;
     .Huella__doblehuella{
         top:80%;
         width: 60%;
+    }
+
+    .btn__pago{
+        margin: 50px auto;
+        max-width: 30%;
+    }
+    .btn__pago button{
+        font-size: 22px;
+        padding-left: 20px;
+    }
+
+    .link__cachorro{
+        left:45%;
+        top:85.5%;
+    }
+
+    .link__abuelito{
+        left:45%;
+        top:119% ;
+    }
+
+    .link__vidafeliz,.link__rehabilitacion{
+        top:119%;
+        left:44%;
+    }
+
+    .link__nuevahuella{
+        top:107% ;
+        left:44%;
+    }
+
+    .link__doble_huella{
+        top:123%;
+        left:44%;
     }
 }
 
@@ -193,6 +309,43 @@ margin: 5px auto;
     .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion,.Huella__nuevahuella,.Huella__doblehuella{
         width: 40%;
         top: 42%;
+    }
+
+    .btn__pago{
+        max-width: 40%;
+    }
+    .btn__pago button{
+        font-size: 22px;
+    }
+
+    .link__cachorro{
+        left:71.5%;
+        top:64%;
+    }
+
+    .link__abuelito{
+        left:66%;
+        top:67% ;
+    }
+
+    .link__vidafeliz{
+        left:68%;
+        top:68% ;
+    }
+
+    .link__rehabilitacion{
+        left:66%;
+        top:68% ;
+    }
+
+    .link__nuevahuella{
+        left:69%;
+        top:71% ;
+    }
+
+    .link__doble_huella{
+        left:68%;
+        top:71% ;
     }
 }
 
@@ -256,12 +409,94 @@ margin: 5px auto;
 
     .Huella__cachorro{
         width: 35%;
-        top:20%;
+        top:23%;
     }
 
     .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion,.Huella__nuevahuella,.Huella__doblehuella{
         width: 35%;
         top:33.2%;
+    }
+
+    .btn__pago{
+        width: 16%;
+        height: 9%;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        position: absolute;
+        left: 62%;
+    }
+
+    .link__cachorro{
+        left:66%;
+        top:65%;
+    }
+
+    .btn__abuelito{
+        left: 55%;
+    }
+
+    .link__abuelito{
+        left:59%;
+        top:80%;
+    }
+
+    .link__vidafeliz{
+        left:59.5%;
+        top:75%;
+    }
+    .link__rehabilitacion{
+        left:59.5%;
+        top:80%;
+    }
+
+    .link__nuevahuella{
+        left:66%;
+        top:80%;
+    }
+    
+    .btn__doble_huella{
+        left: 56%;
+    }
+
+    .link__doble_huella{
+        left:60%;
+        top:79%
+    }
+
+    .btn__pago:hover button, .btn__pago:hover .huella-btn{
+        background-color: var(--blue-medium-color);
+    }
+    
+    .btn__pago button{
+        background-color: var(--blue-dark-color);
+        border: 5px solid var(--blue-light);
+        cursor: pointer;
+        border-radius:10px;
+        position: absolute;
+        right: 0%;
+        z-index: 0;
+        font-family: var(--aleo-font);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: var(--white-color);
+        text-align:center;
+        padding-left: 20px;
+    }
+    
+    .huella-btn {
+        background-color: var(--blue-dark-color);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid var(--blue-light);
+        padding:3.5px;
+        border-radius:50%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
     }
 }
 

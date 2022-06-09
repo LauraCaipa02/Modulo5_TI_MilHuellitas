@@ -5,7 +5,6 @@ import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_5nuevahuella.jpg";
 import '../../components/donacion/Plan.css';
 import Huella from '../../assets/img/donacion/Union.png';
-import '../../components/donacion/Boton/Boton.css';
 import Icono from '../../assets/img/donacion/huella_boton.svg'
 
 function  NuevaHuella() {
