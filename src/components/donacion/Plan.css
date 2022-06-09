@@ -2,16 +2,48 @@
     position: relative;
 }
 
-.Huella{
+.Huella__cachorro{
     position: absolute;
     right: 0;
-    bottom: 0px;
-    width: 100%;
+    top:40%;
+    width: 95%;
+    z-index: -1;
+}
+
+.Huella__abuelito,.Huella__doblehuella{
+    position: absolute;
+    right: 0;
+    top:57%;
+    width: 95%;
+    z-index: -1;
+}
+
+.Huella__vidafeliz{
+    position: absolute;
+    right: 0;
+    top:54%;
+    width: 95%;
+    z-index: -1;
+}
+
+.Huella__rehabilitacion{
+    position: absolute;
+    right: 0;
+    top:63%;
+    width: 95%;
+    z-index: -1;
+}
+
+.Huella__nuevahuella{
+    position: absolute;
+    right: 0;
+    top:53%;
+    width: 95%;
     z-index: -1;
 }
 
 .bodyplan{
-    margin-top: 100px;
+    margin:100px 0;
 }
 
 .img_plan{
@@ -87,12 +119,32 @@ margin: 5px auto;
     font-size: 16pt;
     margin: 5px auto 10px;
     }
+
+    .Huella__cachorro{
+        top:50%;
+        width: 60%;
+    }
+
+    .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion{
+        top:76%;
+        width: 60%;
+    }
+
+    .Huella__nuevahuella{
+        top:65%;
+        width: 60%;
+    }
+
+    .Huella__doblehuella{
+        top:80%;
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .bodyplan{
         display: flex;
-        margin-top: 91.7px;
+        margin:91.7px 0 0;
         height: 74.4vh !important;
     }
 
@@ -133,9 +185,14 @@ margin: 5px auto;
     margin: 5px 0 10px;
     }
 
-    .Huella{
+    .Huella__cachorro{
         width: 40%;
-        bottom: 100px;
+        top: 36%;
+    }
+
+    .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion,.Huella__nuevahuella,.Huella__doblehuella{
+        width: 40%;
+        top: 42%;
     }
 }
 
@@ -173,7 +230,7 @@ margin: 5px auto;
     }
 
     .container__plan__subtitle{
-        width: 75%;
+        width: 90%;
         font-size: 28px;
         margin:10px 0;
         text-align: justify;
@@ -188,17 +245,67 @@ margin: 5px auto;
     }
 
     .plan__text{
-    width: 75%;
+    width: 90%;
     font-size: 22px;
     margin: 5px 0 10px;
     }
 
     .plan__container{
-        margin: 50px auto;
+        margin: 50px auto 15px;
     }
 
-    .Huella{
+    .Huella__cachorro{
         width: 35%;
-        bottom: 99px;
+        top:20%;
+    }
+
+    .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion,.Huella__nuevahuella,.Huella__doblehuella{
+        width: 35%;
+        top:33.2%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .plan__title{
+        margin-top: 90px;
+    }
+
+    .btn__pago{
+        top:50%;
+    }
+
+    .link__cachorro{
+        left:67%!important;
+        top:58%!important;
+    }
+
+    .btn__abuelito{
+        top:60%;
+        left: 57%!important;
+    }
+
+    .link__abuelito,.link__vidafeliz,.link__rehabilitacion{
+        left:62%!important;
+        top:67%!important;
+    }
+
+    .btn__nuevopago{
+        position: absolute;
+        top:60%;
+    }
+
+    .link__nuevahuella{
+        left:67%!important;
+        top:67%!important;
+    }
+
+    .btn__doble_huella{
+        left: 56%;
+        top:60%
+    }
+
+    .link__doble_huella{
+        left:61%!important;
+        top:66%!important;
     }
 }
