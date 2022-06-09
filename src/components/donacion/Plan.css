@@ -223,7 +223,7 @@ margin: 5px auto;
     }
 
     .btn__pago{
-        margin: 50px auto;
+        margin: 30px auto;
         max-width: 30%;
     }
     .btn__pago button{
@@ -233,7 +233,8 @@ margin: 5px auto;
 
     .link__cachorro{
         left:45%;
-        top:85.5%;
+        top:83%;
+        margin-bottom: 30px;
     }
 
     .link__abuelito{
