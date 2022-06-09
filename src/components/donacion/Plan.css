@@ -43,7 +43,7 @@
 }
 
 .bodyplan{
-    margin:100px 0;
+    margin:100px 0 0;
 }
 
 .img_plan{
@@ -98,99 +98,6 @@ font-size: 16px;
 text-align: justify;
 color: #000000;
 margin: 5px auto;
-}
-
-.btn__pago{
-    width: 45%;
-    height: 80%;
-    margin: 30px auto;
-    display: flex;
-    position: relative;
-}
-
-.btn__pago button{
-    width: 90%;
-    background-color: var(--blue-dark-color);
-    border: 5px solid var(--blue-light);
-    cursor: pointer;
-    border-radius:10px;
-    position: absolute;
-    right: 0%;
-    z-index: 0;
-    font-family: var(--aleo-font);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 36px;
-    color: var(--white-color);
-    text-align:center;
-    padding-left: 30px;
-}
-
-.huella-btn {
-    background-color: var(--blue-dark-color);
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid var(--blue-light);
-    padding:2.5px;
-    padding-left: 4px;
-    border-radius:50%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-}
-
-.huella-btn img{
-    width: 80%;
-}
-
-.btn__pago:hover button, .btn__pago:hover .huella-btn{
-    background-color: var(--blue-medium-color);
-}
-
-.planes{
-    color: var(--blue-dark-color);
-    text-decoration: none;
-    font-family:'Open Sans';
-    position: absolute;
-}
-
-.planes:hover{
-    text-decoration:underline;
-    font-weight: bold;
-}
-
-.link__cachorro{
-    left:36%;
-    top:71%;
-}
-
-.btn__abuelito{
-    margin-bottom: 10px;
-}
-
-.link__abuelito{
-    top:87.5% ;
-    left:39%;
-}
-.link__vidafeliz{
-    top:82% ;
-    left:37%;
-}
-
-.link__rehabilitacion{
-    top:85% ;
-    left: 37%;
-}
-
-.link__nuevahuella{
-    top:80% ;
-    left:37%;
-}
-.link__doble_huella{
-    top:85%;
-    left:37%;
 }
 
 @media screen and (min-width: 768px) {
