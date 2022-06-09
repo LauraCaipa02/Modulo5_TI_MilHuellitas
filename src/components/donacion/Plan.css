@@ -165,9 +165,14 @@ margin: 5px auto;
     left:36%;
     top:71%;
 }
+
+.btn__abuelito{
+    margin-bottom: 10px;
+}
+
 .link__abuelito{
-    top:88% ;
-    left:37%;
+    top:87.5% ;
+    left:39%;
 }
 .link__vidafeliz{
     top:82% ;
@@ -243,9 +248,13 @@ margin: 5px auto;
         margin-bottom: 35px;
     }
 
+    .btn__abuelito{
+        margin-bottom: 15px;
+    }
+
     .link__abuelito{
         left:45%;
-        top:91% ;
+        top:97% ;
     }
 
     .link__vidafeliz,.link__rehabilitacion{
@@ -436,7 +445,7 @@ margin: 5px auto;
 
     .link__cachorro{
         left:68.5%;
-        top:56%;
+        top:60%;
     }
 
     .btn__abuelito{
@@ -445,7 +454,7 @@ margin: 5px auto;
 
     .link__abuelito{
         left:61%;
-        top:62%;
+        top:71%;
     }
 
     .link__vidafeliz{
@@ -522,13 +531,13 @@ margin: 5px auto;
     }
 
     .btn__abuelito{
-        top:60%;
+        top:65%;
         left: 57%!important;
     }
 
     .link__abuelito,.link__vidafeliz,.link__rehabilitacion{
         left:62%!important;
-        top:67%!important;
+        top:72%!important;
     }
 
     .btn__nuevopago{

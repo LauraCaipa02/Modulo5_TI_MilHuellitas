@@ -31,7 +31,6 @@ function  VidaFeliz() {
             <img src={Huella} alt=''className="Huella__vidafeliz"/>
             </div>
             </div>
-            <Footer/>
         </section>
     );           
 }
