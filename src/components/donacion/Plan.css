@@ -5,7 +5,7 @@
 .Huella__cachorro{
     position: absolute;
     right: 0;
-    top:40%;
+    top:43%;
     width: 95%;
     z-index: -1;
 }
@@ -13,7 +13,7 @@
 .Huella__abuelito,.Huella__doblehuella{
     position: absolute;
     right: 0;
-    top:57%;
+    top:59%;
     width: 95%;
     z-index: -1;
 }
@@ -21,7 +21,7 @@
 .Huella__vidafeliz{
     position: absolute;
     right: 0;
-    top:54%;
+    top: 56%;
     width: 95%;
     z-index: -1;
 }
@@ -29,7 +29,7 @@
 .Huella__rehabilitacion{
     position: absolute;
     right: 0;
-    top:63%;
+    top:65%;
     width: 95%;
     z-index: -1;
 }
@@ -37,7 +37,7 @@
 .Huella__nuevahuella{
     position: absolute;
     right: 0;
-    top:53%;
+    top:55%;
     width: 95%;
     z-index: -1;
 }
@@ -121,22 +121,22 @@ margin: 5px auto;
     }
 
     .Huella__cachorro{
-        top:50%;
+        top:53%;
         width: 60%;
     }
 
     .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion{
-        top:57%;
+        top:60%;
         width: 60%;
     }
 
     .Huella__nuevahuella{
-        top:50%;
+        top:53%;
         width: 60%;
     }
 
     .Huella__doblehuella{
-        top:60%;
+        top:63%;
         width: 60%;
     }
 
