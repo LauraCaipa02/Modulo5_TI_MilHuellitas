@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Icono from '../../assets/img/donacion/huella_boton.svg';
 import './boton.css';
 
@@ -6,9 +7,9 @@ function Boton() {
     <section className='botonc'>
         <div className='btn-container'>
             <button className='btn_pago'>Apadrinar</button>
-            <a className="la_a" href='/src/pages/donacion/Cachorro.js'><img className='huella_btn' src={Icono} alt=""></img></a>
+            <Link className="la_a" to="/donacion"><img className='huella_btn' src={Icono} alt=""></img></Link>
         </div>
-        <a href='' className='plan'><i class="fa-solid fa-caret-left"></i>Otros Planes</a>
+        <Link to='/donacion' className='plan'><i class="fa-solid fa-caret-left"></i>Otros Planes</Link>
     </section>
     );
 }

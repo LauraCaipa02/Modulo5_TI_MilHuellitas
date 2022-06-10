@@ -140,44 +140,6 @@ margin: 5px auto;
         width: 60%;
     }
 
-    .btn__pago{
-        margin: 30px auto 10px;
-        max-width: 30%;
-    }
-    .btn__pago button{
-        font-size: 22px;
-        padding-left: 20px;
-    }
-
-    .link__cachorro{
-        left:45%;
-        top:85%;
-        margin-bottom: 35px;
-    }
-
-    .btn__abuelito{
-        margin-bottom: 15px;
-    }
-
-    .link__abuelito{
-        left:45%;
-        top:97% ;
-    }
-
-    .link__vidafeliz,.link__rehabilitacion{
-        top:90%;
-        left:45%;
-    }
-
-    .link__nuevahuella{
-        top:82% ;
-        left:44%;
-    }
-
-    .link__doble_huella{
-        top:93%;
-        left:44%;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -232,43 +194,6 @@ margin: 5px auto;
     .Huella__abuelito,.Huella__vidafeliz,.Huella__rehabilitacion,.Huella__nuevahuella,.Huella__doblehuella{
         width: 40%;
         top: 42%;
-    }
-
-    .btn__pago{
-        max-width: 40%;
-    }
-    .btn__pago button{
-        font-size: 22px;
-    }
-
-    .link__cachorro{
-        left:71.5%;
-        top:64%;
-    }
-
-    .link__abuelito{
-        left:66%;
-        top:67% ;
-    }
-
-    .link__vidafeliz{
-        left:68%;
-        top:68% ;
-    }
-
-    .link__rehabilitacion{
-        left:66%;
-        top:68% ;
-    }
-
-    .link__nuevahuella{
-        left:69%;
-        top:71% ;
-    }
-
-    .link__doble_huella{
-        left:68%;
-        top:71% ;
     }
 }
 
@@ -339,131 +264,10 @@ margin: 5px auto;
         width: 35%;
         top:33.2%;
     }
-
-    .btn__pago{
-        width: 16%;
-        height: 9%;
-        margin: 0 auto;
-        display: flex;
-        position: relative;
-        position: absolute;
-        left: 64%;
-    }
-
-    .link__cachorro{
-        left:68.5%;
-        top:60%;
-    }
-
-    .btn__abuelito{
-        left: 56%;
-    }
-
-    .link__abuelito{
-        left:61%;
-        top:71%;
-    }
-
-    .link__vidafeliz{
-        left:61%;
-        top:62%;
-    }
-    .link__rehabilitacion{
-        left:61%;
-        top:61%;
-    }
-
-    .link__nuevahuella{
-        left:69%;
-        top:65%;
-    }
-    
-    .btn__doble_huella{
-        left: 56%;
-    }
-
-    .link__doble_huella{
-        left:61%;
-        top:64.5%
-    }
-
-    .btn__pago:hover button, .btn__pago:hover .huella-btn{
-        background-color: var(--blue-medium-color);
-    }
-    
-    .btn__pago button{
-        background-color: var(--blue-dark-color);
-        border: 5px solid var(--blue-light);
-        cursor: pointer;
-        border-radius:10px;
-        position: absolute;
-        right: 0%;
-        z-index: 0;
-        font-family: var(--aleo-font);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;
-        color: var(--white-color);
-        text-align:center;
-        padding-left: 20px;
-    }
-    
-    .huella-btn {
-        background-color: var(--blue-dark-color);
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        border: 5px solid var(--blue-light);
-        padding:3.5px;
-        border-radius:50%;
-        position: absolute;
-        left: 0;
-        z-index: 1;
-    }
 }
 
 @media screen and (min-width: 1440px){
     .plan__title{
         margin-top: 90px;
-    }
-
-    .btn__pago{
-        top:50%;
-    }
-
-    .link__cachorro{
-        left:69%!important;
-        top:58%!important;
-    }
-
-    .btn__abuelito{
-        top:65%;
-        left: 57%!important;
-    }
-
-    .link__abuelito,.link__vidafeliz,.link__rehabilitacion{
-        left:62%!important;
-        top:72%!important;
-    }
-
-    .btn__nuevopago{
-        position: absolute;
-        top:60%;
-    }
-
-    .link__nuevahuella{
-        left:69%!important;
-        top:67%!important;
-    }
-
-    .btn__doble_huella{
-        left: 56%;
-        top:60%
-    }
-
-    .link__doble_huella{
-        left:61%!important;
-        top:66%!important;
     }
 }
