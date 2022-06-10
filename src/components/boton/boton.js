@@ -9,7 +9,7 @@ function Boton() {
             <button className='btn_pago'>Apadrinar</button>
             <Link className="la_a" to="/donacion"><img className='huella_btn' src={Icono} alt=""></img></Link>
         </div>
-        <Link to='/donacion' className='plan'><i class="fa-solid fa-caret-left"></i>Otros Planes</Link>
+        <Link to='/apadrina' className='plan'><i class="fa-solid fa-caret-left"></i>Otros Planes</Link>
     </section>
     );
 }
