@@ -3,7 +3,7 @@ import Footer from "./../../components/footer/Footer";
 import Info from "./../../components/donacion/Donacion_info";
 import Gallerya from "../../components/donacion/Galery";
 
-function Donacion(){
+function Apadrina(){
     return(
         <section className="donacion">
             <Header/>
@@ -14,4 +14,4 @@ function Donacion(){
     )
 }
 
-export default Donacion;
+export default Apadrina;

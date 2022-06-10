@@ -1,17 +1,17 @@
 import Header from "./../../components/header/Header";
 import Footer from "./../../components/footer/Footer";
 import Info from "./../../components/donacion/Donacion_info";
-import Gallerya from "../../components/donacion/Galery";
+import Gallerym from "../../components/donacion/Galerym";
 
-function Donacion(){
+function Donacionm(){
     return(
         <section className="donacion">
             <Header/>
             <Info/>
-            <Gallerya/>
+            <Gallerym/>
             <Footer/>
         </section>
     )
 }
 
-export default Donacion;
+export default Donacionm;

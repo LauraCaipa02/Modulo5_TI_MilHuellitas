@@ -5,6 +5,8 @@ import './index.css';
 //import Home from './pages/Home';
 //import Adopcion from './pages/adopcion';
 import Donacion from './pages/donacion/Donacion';
+import Donacionm from './pages/donacion/Donacionm';
+import Apadrina from './pages/donacion/Apadrina';
 //import Aliados from './pages/Aliados';
 //import Blog from './pages/Blog';
 import Error404 from './pages/Error404';
@@ -24,6 +26,8 @@ root.render(
   {/* <Route path='/' element={<Home/>}></Route>
   <Route path='/adopcion' element={<Adopcion/>}></Route> */}
   <Route path='/donacion' element={<Donacion/>}></Route>
+  <Route path='/donacion_material' element={<Donacionm/>}></Route>
+  <Route path='/apadrina' element={<Apadrina/>}></Route>
   {/* <Route path='/blog' element={<Blog/>}></Route>
   <Route path='/aliados' element={<Aliados/>}></Route> */}
   <Route path='*' element={<Error404/>}></Route>

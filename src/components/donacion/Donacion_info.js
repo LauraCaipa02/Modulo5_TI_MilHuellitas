@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Donacion_info.css';
 import Principal from'./img/principal.jpg';
 
@@ -26,9 +27,9 @@ function Info(){
             </section>
 
             <section class="buttons">
-                <button class="button_active"><a href="donacion_economica.html">Donación Económica</a></button>
-                <button><a href="donacion_material.html">Donación Material</a></button>
-                <button><a href="apadrina.html">Apadrinamiento</a></button>
+                <button class="button_active"><Link to="/donacion">Donación Económica</Link></button>
+                <button><Link to="/donacion_material">Donación Material</Link></button>
+                <button><Link to="/apadrina">Apadrinamiento</Link></button>
             </section>
         </main>
     )
